@@ -1,0 +1,20 @@
+.quiz-section {
+    margin: 60px 150px;
+}
+
+.selectedStyling {
+    background-color: #1266F1 !important;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid rgb(206, 205, 205);
+    border-radius: 20px;
+}
+
+.choicesStyling {
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid rgb(206, 205, 205);
+    border-radius: 20px;
+}
