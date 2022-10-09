@@ -1,0 +1,20 @@
+footer {
+    background-color: #f1f1f4;
+    height: 15vh;
+} 
+
+.enterText {
+    color: #706f6f;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.copyright {
+    color: #706f6f;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}

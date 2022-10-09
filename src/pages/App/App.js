@@ -5,6 +5,7 @@ import About from '../../components/About/About'
 import TestDisplay from '../../components/TestDisplay/TestDisplay'
 import TestOnePage from '../TestOnePage/TestOnePage';
 import TestTwoPage from '../../pages/TestTwoPage/TestTwoPage';
+import Footer from '../../components/Footer/Footer'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
           </Route>
         </Switch>  
       </Router>
+      <Footer/>
     </div>
   );
 }

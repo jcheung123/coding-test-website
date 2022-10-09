@@ -54,13 +54,14 @@ class TestOnePage extends Component {
     if (submitTest) {
       return (
         <div className="quiz-section">
+          <h1>Congrats!</h1>
           <h3>Your Responses Has Been Submitted Successfully.</h3>
         </div>
       )
     } else {
       return (
         <div className="quiz-section"> 
-            <h1>JavaScript Multiple Choice Test</h1>
+            <h1>JavaScript Quiz</h1>
             <br /><br />
             <h2>{this.state.questions}</h2>
 

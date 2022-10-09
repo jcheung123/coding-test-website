@@ -6,9 +6,9 @@ import Card from 'react-bootstrap/Card';
 
 function TestDisplay() {
     return (
-        <div>    
+        <div className="body-section">     
             <Card style={{flex: 1}}>
-                <Card.Img variant="top" src="myImages/javascript.jpg"  alt="javascript" style={{height: '200px', width: '100%', opacity: 0.8}}/>
+                <Card.Img variant="top" src="myImages/javascript.jpg"  alt="javascript" style={{height: '100%', width: '100%', opacity: 0.8}}/>
                 <Card.Body>
                     <Card.Title>JavaScript 101</Card.Title>
                     <Card.Text>
@@ -22,7 +22,7 @@ function TestDisplay() {
 
             <br /><br />
             <Card style={{ flex: 1}}>
-                <Card.Img variant="top" src="myImages/python.jpg" alt="python" style={{height: '200px', width: '100%', opacity: 0.8}}/>
+                <Card.Img variant="top" src="myImages/python.jpg" alt="python" style={{height: '75%', width: '100%', opacity: 0.8}}/>
                 <Card.Body>
                     <Card.Title>Python 101</Card.Title>
                     <Card.Text>

@@ -54,13 +54,14 @@ class TestTwoPage extends Component {
     if (submitTest) {
       return (
         <div className="quiz-section">
-          <h3>Your Responses Has Been Submitted Successfully.</h3>
+            <h1>Congrats!</h1>
+            <h3>Your Responses Has Been Submitted Successfully.</h3>
         </div>
       )
     } else {
       return (
         <div className="quiz-section"> 
-            <h1>Python Multiple Choice Test</h1>
+            <h1>Python Quiz</h1>
             <br /><br />
             <h2>{this.state.questions}</h2>
 
