@@ -1,7 +1,6 @@
-
 import React, { Component } from 'react';
 import './TestOnePage.css';
-import { testOneData } from '../../testOneData';
+import { testOneData } from '../../testDataBank';
 import Button from 'react-bootstrap/Button';
 
 class TestOnePage extends Component {
